@@ -11,7 +11,7 @@ const progressBar = new cliprogress.SingleBar(
 	cliprogress.Presets.shades_classic
 );
 
-export async function downloadVanced(version, arch, theme) {
+export async function downloadVanced(version, arch, theme, lang) {
 	let src =
 		'https://vanced.app/downloads/YouTube_Vanced-v' +
 		version +
@@ -52,7 +52,7 @@ export async function downloadVanced(version, arch, theme) {
 				} else {
 					console.log('Done extracting file');
 					fs.unlinkSync(__dirname + '/youtube/youtube.zip');
-					checkFiles(arch);
+					checkFiles(arch, lang);
 					console.log('Done renaming file');
 				}
 			}
