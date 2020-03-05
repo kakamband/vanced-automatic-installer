@@ -49,9 +49,9 @@ List of commands available:
   version ................ Show the package version
   help    ................ Show the help menu for a list of commands
 ```
-![installOptions](https://imgur.com/a/g6dCP7q)
+![installOptions](https://res.cloudinary.com/ddi06hyjw/image/upload/v1583391989/Screenshot_20200305_084449_tjka76.png)
 
-![installOptions](https://imgur.com/a/vLSJbt2)
+![installOptions](https://res.cloudinary.com/ddi06hyjw/image/upload/v1583391989/Screenshot_20200305_084457_z192sw.png)
 
 ## Development <a name = "development"></a>
 
