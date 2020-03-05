@@ -8,6 +8,8 @@ if [ $DEVICE_DETECTED == "Yes" ]
 then
    echo 'Device Detected'
    echo 'Continuing install'
+   cd $(dirname $0)
+   cd youtube
    adb install-multiple youtube.apk config.arm64_v8a.apk config.xxxhdpi.apk split_config.en.apk
 else
    echo 'No Device Detected'
