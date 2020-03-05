@@ -5,7 +5,7 @@ const files = fs.readdirSync(directory);
 
 export async function cleanUp() {
 	for (const file of files) {
-		fs.unlink(path.join(directory, file), err => {
+		fs.unlink(directory + file, err => {
 			if (err) throw err;
 		});
 	}
